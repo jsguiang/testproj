@@ -2,7 +2,7 @@
   "name": "CentralCore",
   "version": "1.0.0",
   "description": "PSBank Central Core",
-  "homepage": "https://github.com/jsguiang/nacapp/",
+  "homepage": "https://github.com/jsguiang/testproj/",
   "private": false,
   "main": "dist/index.js",
   "dependencies": {
