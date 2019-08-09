@@ -1,0 +1,133 @@
+{
+	"dedupDetails": {
+		"referenceNumber": "01201908090000950",
+		"dedupResult": "1",
+		"dedupDetails_List": [
+			{
+				"customerName": "",
+				"birthdate": "",
+				"address": "",
+				"eMail": "",
+				"mobileNumber": "",
+				"cif": "",
+				"psbAccounts": "",
+				"sourceAccounts": "",
+				"mobaUserID": "",
+				"mobileAppFullName": "",
+				"rebaUserID": "",
+				"rebaFullName": "",
+				"findings": ""
+			}
+		]
+	},
+	"icdbDetails": {
+		"refno": "1201908090000950",
+		"icdbresult": "0",
+		"icdbDetails_List": [
+			{
+				"refno": "",
+				"icdbid": "0",
+				"cusT_NAME": "",
+				"aka": "",
+				"orG_CD": "",
+				"sourcE_ID": "",
+				"remarks": "",
+				"teL_NO": "",
+				"cusT_ADDR": "",
+				"dT_UPLD": "0001-01-01T00:00:00",
+				"sysmatch": "",
+				"carscode": ""
+			}
+		]
+	},
+	"carsDetails": {
+		"refno": "01201908090000950",
+		"riskscore": "11",
+		"riskrating": "NORMAL",
+		"riskprofile": "'FN1','REG','SF1','LNK1'",
+		"carsDetails_List": [
+			{
+				"refno": "01201908090000950",
+				"factorcode": "04",
+				"factordesc": "Citizenship, Nationality or Country of Origin ",
+				"subfactorcode": "FN1",
+				"subfactor": "Filipino",
+				"points": "2"
+			},
+			{
+				"refno": "01201908090000950",
+				"factorcode": "07",
+				"factordesc": "Linked Accounts",
+				"subfactorcode": "LNK1",
+				"subfactor": "None linked; 1 or more accounts owned by the same person and maintained in the same branch",
+				"points": "2"
+			},
+			{
+				"refno": "01201908090000950",
+				"factorcode": "06",
+				"factordesc": "Profession or Occupation",
+				"subfactorcode": "REG",
+				"subfactor": "Regular employees and those other than Low-income individuals, PSPs and NWCs",
+				"points": "5"
+			},
+			{
+				"refno": "01201908090000950",
+				"factorcode": "05",
+				"factordesc": "Source of Funds",
+				"subfactorcode": "SF1",
+				"subfactor": "Payroll or Basic Compensation, Bonuses and other Fringe benefits by an employee",
+				"points": "2"
+			}
+		]
+	},
+	"partition": "3",
+	"offset": "1",
+	"statusCode": "Ok",
+	"statusDescription": null,
+	"referenceNumber": "01201908090000950",
+	"existingLevel": "0",
+	"applicationLevel": "3",
+	"l1ApplicationDate": null,
+	"l1Status": null,
+	"l2ApplicationDate": null,
+	"l2Status": null,
+	"l3ApplicationDate": "2019-08-09T00:00:00+08:00",
+	"l3Status": "5",
+	"lastName": "salazar",
+	"middleName": "reyes",
+	"firstName": "bobby",
+	"birthDate": "1990-08-09T00:00:00",
+	"mobileNumber": "9124512544",
+	"emailAddress": "bobbie@gmail.com",
+	"presentAddress": "MONTERDE ST.",
+	"presentMunicipalityCode": "2800|Bangued",
+	"presentProvince": "PH-PSY|Pasay City",
+	"presentCountry": "PH|Philippines",
+	"presentZipCode": "1300",
+	"permanentAddress": "MONTERDE ST.",
+	"permanentMunicipalityCode": "2800|Bangued",
+	"permanentProvince": "PH-PSY|Pasay City",
+	"permanentCountry": "PH|Philippines",
+	"permanentZipCode": "1300",
+	"sourceofIncome": "SF1|0001|SALARY/PAYROLL",
+	"natureofWork": "REG|0001|REGULAR EMPLOYEES",
+	"placeofBirth": "PH-CAL|Kalookan City",
+	"nationality": "FN1|FILIPINO",
+	"productType": "",
+	"dedupResult": null,
+	"icdbResult": null,
+	"carsScore": null,
+	"carsRiskProfile": null,
+	"carsOverallRiskRating": null,
+	"dedupDisposition": null,
+	"updatedCARSScore": null,
+	"updatedCARSRiskProfile": null,
+	"updatedCARSOverallRiskRating": null,
+	"ciF_ID": null,
+	"accountNumber": null,
+	"videoCallSchedule": null,
+	"remarks": null,
+	"imageDetails": null,
+	"branchCode": "111",
+	"sourceApplication": "3"
+}

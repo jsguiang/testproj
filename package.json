@@ -1,0 +1,62 @@
+{
+  "name": "CentralCore",
+  "version": "1.0.0",
+  "description": "PSBank Central Core",
+  "homepage": "https://github.com/jsguiang/testproj/",
+  "private": false,
+  "main": "dist/index.js",
+  "dependencies": {
+    "@material-ui/core": "3.9.2",
+    "@material-ui/icons": "3.0.2",
+    "@material-ui/styles": "^4.2.0",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "chartist": "0.10.1",
+    "classnames": "2.2.6",
+    "cors": "^2.8.5",
+    "history": "4.7.2",
+    "keycloak-js": "^6.0.1",
+    "moment": "^2.24.0",
+    "perfect-scrollbar": "1.4.0",
+    "prettier": "1.16.4",
+    "prop-types": "15.7.1",
+    "react": "16.8.1",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-chartist": "0.13.3",
+    "react-dom": "16.8.1",
+    "react-dom-camera": "^0.3.5",
+    "react-draggable": "^3.3.0",
+    "react-google-maps": "9.4.5",
+    "react-html5-camera-photo": "^1.4.3",
+    "react-keycloak": "^6.0.5",
+    "react-responsive-modal": "^4.0.1",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.5",
+    "react-swipeable-views": "0.13.1",
+    "react-webcam": "^1.1.1",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start-sw": "http-server ./build",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "lint:check": "eslint . --ext=js,jsx;  exit 0",
+    "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
+    "build-package-css": "cp src/assets/css/material-dashboard-react.css dist/material-dashboard-react.css",
+    "build-package": "npm run build-package-css && babel src --out-dir dist"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-config-prettier": "4.0.0",
+    "eslint-plugin-prettier": "3.0.1",
+    "http-server": "^0.11.1"
+  }
+}

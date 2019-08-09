@@ -1,0 +1,79 @@
+.basic-modal {
+    color:  #bbbaba;    
+    display: flex;
+    height: 150vh;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+}
+
+.camera-modal {
+    color: transparent;
+    display: flex;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 160vw;
+    z-index: 1000;
+}
+.mini-modal {
+    background-color: transparent;
+    display: flex;
+    height: 80vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 60vw;
+    z-index: 1000;
+}
+
+.basic-modal-content2 {
+    background-color:  #ffffff;    
+    border-radius: 5px;
+    margin: auto;
+    padding: 1px;
+    position: relative;
+    width: 40%;
+    z-index: 1;
+    border: 1px solid  #ff0000;
+    
+}
+
+.basic-modal-content {
+    background-color: #bbbaba;
+    border-radius: 5px;
+    border-color: #ff0000;
+    margin: auto;
+    padding: 1px;
+    position: relative;
+    width: 40%;
+    z-index: 1;
+}
+
+
+.basic-modal-content h1 {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.basic-modal-close {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    font-weight: bold;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.basic-modal-close:hover {
+    color: #ffffff;
+    background-color: #ffffff;
+}
