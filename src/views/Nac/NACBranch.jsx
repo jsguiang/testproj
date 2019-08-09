@@ -110,8 +110,8 @@ class NACBranch extends React.Component {
         };
 
         let vappno = this.state.vRefNo;
-        // axios.get('api/WebApi/Getnxt', this.authorizationHeader())
-        axios.post('http://10.11.27.104:3001/api/WebApi/PostKafka', { data: "http://10.11.27.104:5003/api/NacReview/3/111" })
+      //  axios.post('http://10.11.27.104:3001/api/WebApi/PostKafka', { data: "http://10.11.27.104:5003/api/NacReview/3/111" })
+        axios.get('/json/customer3.json')
             .then(response => {
                 let results = null;
                 if (typeof (response.data) === "string") {
@@ -236,6 +236,12 @@ class NACBranch extends React.Component {
             });
     }
 
+    removeBar(text){
+        
+        let str = (text) + ' ' ;
+        return(str.substring(str.indexOf('|') + 1) );
+    };
+
     render() {
         const { classes } = this.props;
 
@@ -243,6 +249,7 @@ class NACBranch extends React.Component {
         let wname = clientInfo.firstName + " " + clientInfo.middleName + " " + clientInfo.lastName;
         const DATE_OPTIONS = { year: 'numeric', month: 'short', day: 'numeric' }
         console.log(this.state)
+        console.log(this.removeBar(clientInfo.presentMunicipalityCode) )
 
         if (!clientInfo.referenceNumber) {
             return ( 
