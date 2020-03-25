@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "id": 21,
+      "frontImage": {
+        "image": "http://psbapiadev:8081/images/onboarding/363336393330393731383634363439333437.png",
+        "fileExtension": "png"
+      },
+      "documentType": {
+        "code": 1,
+        "description": "Selfie"
+      },
+      "dateUploaded": "2019-05-10T15:00:02Z",
+      "uploadedBy": "CP66000"
+    },
+    {
+      "id": 23,
+      "frontImage": {
+        "image": "http://psbapiadev:8081/images/onboarding/363336393330393734313730303334303633.png",
+        "fileExtension": "png"
+      },
+      "documentType": {
+        "code": 2,
+        "description": "Specimen Signature"
+      },
+      "dateUploaded": "2019-05-10T15:04:02Z",
+      "uploadedBy": "CP66000"
+    }
+  ]
+}

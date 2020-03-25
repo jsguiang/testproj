@@ -1,0 +1,65 @@
+{
+    "data": {
+        "clientInfo": {
+            "firstName": "Jon",
+            "middleName": "Snow",
+            "lastName": "Stark",
+            "birthDate": "1002-02-02T00:00:00Z",
+            "mobileNumber": "9175501877",
+            "email": "JonSnow@gmail.com",
+            "presentAddress": {
+                "unitNo": "111",
+                "bldg": "Red Keep",
+                "street": "26th Street",
+                "brgy": "Old Gods",
+                "city": "Winterfell",
+                "zipCode": "1002"
+            },
+            "permanentAddress": {
+                "unitNo": "111",
+                "bldg": "Red Keep",
+                "street": "26th Street",
+                "brgy": "Old Gods",
+                "city": "Winterfell",
+                "zipCode": "1002"
+            },
+            "sourceIncome": "Business",
+            "natureWork": "King of Westeros",
+            "placeOfBirth": "Westeros",
+            "nationality": "PH"
+        },
+        "application": {
+            "applicationNumber": "01201904150000111",
+            "level": {
+                "existing": "1",
+                "applying": "1",
+                "l1": {
+                    "applicationDate": "4/15/2019 11:48:10 AM",
+                    "sourceApplication": "1",
+                    "status": "0"
+                },
+                "l2": {},
+                "l3": {}
+            }
+        },
+        "iResult": {
+            "dedupResult": "1",
+            "dedeupDesposition": "1",
+            "icdbResult": "1",
+            "cars": {
+                "initial": {
+                    "riskScore": "70",
+                    "riskProfile": "1",
+                    "riskRating": "1"
+                },
+                "updated": {
+                    "riskScore": "70",
+                    "riskProfile": "1",
+                    "riskRating": "1"
+                }
+            }
+        },
+        "accountNumber": "112000054",
+        "remarks": ""
+    }
+}

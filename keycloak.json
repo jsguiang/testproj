@@ -1,0 +1,13 @@
+{
+    "realm": "master",
+    "auth-server-url": "http://10.11.27.104:8080/auth",
+    "ssl-required": "external",
+    "resource": "P1DEV",
+    "credentials": {
+      "secret": "cad15591-9ff0-4a5a-9184-bb2fb4d759d3"
+    },
+    "confidential-port": 0,
+    "clientId":"P1DEV",
+    "url": "http://10.11.27.104:8080/auth"
+}
+

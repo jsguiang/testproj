@@ -1,0 +1,105 @@
+{
+	"dedupDetails": {
+		"referenceNumber": "",
+		"dedupResult": "",
+		"dedupDetails_List": [
+			{
+				"customerName": "",
+				"birthdate": "",
+				"address": "",
+				"eMail": "",
+				"cif": "",
+				"psbAccounts": "",
+				"sourceAccounts": "",
+				"mobileAppReferenceNumber": null,
+				"mobaUserID": "",
+				"mobileAppFullName": "",
+				"rebaReferenceNumber": null,
+				"rebaUserID": "",
+				"rebaFullName": "",
+				"findings": ""
+			}
+		]
+	},
+	"icdbDetails": {
+		"refno": "1201908010000673",
+		"icdbresult": "0",
+		"icdbDetails_List": [
+			{
+				"refno": "",
+				"icdbid": "0",
+				"cusT_NAME": "",
+				"aka": "",
+				"orG_CD": "",
+				"sourcE_ID": "",
+				"remarks": "",
+				"teL_NO": "",
+				"cusT_ADDR": "",
+				"dT_UPLD": "0001-01-01T00:00:00",
+				"sysmatch": "",
+				"carscode": ""
+			}
+		]
+	},
+	"carsDetails": {
+		"refno": "01201908010000673",
+		"riskscore": "2",
+		"riskrating": "NORMAL",
+		"riskprofile": "'FILIPINO','0001REGULAR EMPLOYEES','0001SALARYPAYROLL','LNK1'",
+		"carsDetails_List": [
+			{
+				"refno": "01201908010000673",
+				"factorcode": "07",
+				"factordesc": "Linked Accounts",
+				"subfactorcode": "LNK1",
+				"subfactor": "None linked; 1 or more accounts owned by the same person and maintained in the same branch",
+				"points": "2"
+			}
+		]
+	},
+	"partition": "2",
+	"offset": "0",
+	"statusCode": "Ok",
+	"statusDescription": null,
+	"referenceNumber": "01201908010000673",
+	"existingLevel": "0",
+	"applicationLevel": "3",
+	"l1ApplicationDate": null,
+	"l1Status": null,
+	"l2ApplicationDate": null,
+	"l2Status": null,
+	"l3ApplicationDate": "2019-08-01T00:00:00+08:00",
+	"l3Status": "5",
+	"lastName": "MONKEY",
+	"middleName": "DEI",
+	"firstName": "LUFFT",
+	"birthDate": "1990-08-05T00:00:00",
+	"mobileNumber": "9145632587",
+	"emailAddress": "luffy@yahoo.com",
+	"permanentAddress": "East Blue St.",
+	"municipalityCode": "1303|San Roque",
+	"province": "PH-PSY|Pasay City",
+	"country": "PH|Philippines (The)",
+	"zipCode": "1303|San Roque",
+	"sourceofIncome": "0001|Salary/Payroll",
+	"natureofWork": "0001|Regular Employees",
+	"placeofBirth": "PH-MNL",
+	"nationality": "FILIPINO",
+	"productType": "710PHP|Peso Savings Passbook",
+	"dedupResult": null,
+	"icdbResult": null,
+	"carsScore": null,
+	"carsRiskProfile": null,
+	"carsOverallRiskRating": null,
+	"dedupDisposition": null,
+	"updatedCARSScore": null,
+	"updatedCARSRiskProfile": null,
+	"updatedCARSOverallRiskRating": null,
+	"ciF_ID": null,
+	"accountNumber": null,
+	"videoCallSchedule": null,
+	"remarks": null,
+	"imageDetails": null,
+	"branchCode": "111",
+	"sourceApplication": "3"
+}

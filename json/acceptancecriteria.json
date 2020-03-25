@@ -1,0 +1,18 @@
+{
+		"dedup":[{"code": "1","desc": "New to Bank (NTB)"},
+				 {"code": "2","desc": "Existing to Bank (ETB)"},
+				 {"code": "3","desc": "Existing to Onboarding"},
+				 {"code": "0","desc": "No Result"}
+			]	,
+			"icdb": [
+				{"code": "1","desc": "Without Adverse Findings"	},
+				{"code": "2","desc": "With Adverse Findings"},
+				{"code": "0","desc": "No Result"}
+			],
+			"cars": [
+				{"code": "1","desc": "Low"},
+				{"code": "2","desc": "Normal"},
+				{"code": "3","desc": "High"},
+				{"code": "0","desc": "No Result"}
+			]			
+}
